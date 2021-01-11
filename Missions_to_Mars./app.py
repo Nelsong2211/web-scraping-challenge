@@ -1,6 +1,9 @@
+# Import dependencies
+
 from flask import Flask, render_template, redirect
 from flask_pymongo import PyMongo
 import EJ_scrape
+
 # Create an instance of Flask
 app = Flask(__name__)
 
